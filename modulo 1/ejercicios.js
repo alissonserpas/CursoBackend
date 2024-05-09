@@ -31,14 +31,14 @@ rl.question('Ingresa una frase: ', (frase) => {
     } else{
     console.log(`${palabra} no es un palindromo` )
     }
-})*/
+});*/
 
 
 //ejercicio 7
 /*rl.question('Ingrese una cadena: ', (cadena) => {
     const cadenainvertida = cadena.split('').reverse().join('');
     console.log( `Cadena invertida: ${cadenainvertida}` );
-})*/
+});*/
 
 
 //ejercicio 6
@@ -56,7 +56,7 @@ rl.question('Ingresa una frase: ', (frase) => {
     const subcadena= cadena.substring(inicio, inicio + longitud);
     console.log(`Subcadena es: ${subcadena}` )
 
-})*/
+});*/
 
 
 //ejercicio 4
@@ -73,7 +73,7 @@ rl.question('Ingresa una frase: ', (frase) => {
 //ejercicio 3
 /*r1.question('Ingrese una palabra', (palabra)=>{
     console.log(palabra.toUpperCase())
-})*/
+});*/
 
 
 //ejercicio 2
@@ -87,4 +87,4 @@ rl.question('Ingresa una frase: ', (frase) => {
     r1.question('Ingrese su aperllido', (apellido)=>{
         console.log(`hola mi nombre es ${nombre} ${apellido}`)
     })
-})*/
+});*/
