@@ -1,34 +1,32 @@
-const { num } = require('fs')
-const readline = require('readline')
-
-const r1 = readline.createInterface({
-    input:process.stdin,
-    output:process.stdout
-})
-
-/*r1.question("ingrese un numero", (numero)=>{
-    if (numero >= 1){
-            return console.log(numero + "el numero es positivo")
-    }else if (numero <= -1){
-            return console.log(numero + "el numero negativo")
-    }else {
-        return console.log("el numero es 0")
-    }
-
-})*/
+/*Determinar si un número ingresado por el usuario es positivo, negativo o si es 
+cero. */ 
 
 
-// cambiar a funcion
-function evaluar (numero){
-    if (numero >= 1){
-        return console.log(numero + "el numero es positivo")
-    }else if (numero <= -1){
-        return console.log(numero + "el numero negativo")
-    }else{
-        return console.log("el numero es 0")
-        }   
+
+const readline = require('readline');
+
+function ejercicio2() {
+    const r1 = readline.createInterface({
+        input: process.stdin,
+        output: process.stdout
+    });
+
+    r1.question("Ingrese el primer número: ", (numero1) => {
+        r1.question("Ingrese el segundo número: ", (numero2) => {
+            r1.question("Ingrese el tercer número: ", (numero3) => {
+                if (parseFloat(numero1) >= parseFloat(numero2) && parseFloat(numero1) >= parseFloat(numero3)) {
+                    console.log(numero1 + " es mayor");
+                } else if (parseFloat(numero2) >= parseFloat(numero1) && parseFloat(numero2) >= parseFloat(numero3)) {
+                    console.log(numero2 + " es mayor");
+                } else if (parseFloat(numero3) >= parseFloat(numero1) && parseFloat(numero3) >= parseFloat(numero2)) {
+                    console.log(numero3 + " es mayor");
+                }
+
+                r1.close();
+            });
+        });
+    });
 }
 
-r1.question("ingrese un numero", (numero)=>{
-    const num = evaluar(numero)
-})
+module.exports = ejercicio2;
+

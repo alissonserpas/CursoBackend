@@ -60,3 +60,21 @@ r1.question ("ingrese un numero", (numero)=>{
         console.log("el numero no es par")
     }
 })*/
+
+//ejercicio5
+/*r1.question("Ingrese el primer color (rojo, amarillo o azul): ", function(color1){
+    r1.question("Ingrese el segundo color (rojo, amarillo o azul): ", function(color2){
+        
+
+        if ((color1 === 'azul' && color2 === 'amarillo') || (color1 === 'amarillo' && color2 === 'azul')) {
+            console.log("El resultado de mezclar azul y amarillo es: verde");
+        } else if ((color1 === 'azul' && color2 === 'rojo') || (color1 === 'rojo' && color2 === 'azul')) {
+            console.log("El resultado de mezclar azul y rojo es: morado");
+        } else if ((color1 === 'rojo' && color2 === 'amarillo') || (color1 === 'amarillo' && color2 === 'rojo')) {
+            console.log("El resultado de mezclar rojo y amarillo es: naranja");
+        } else {
+            console.log("Error: La combinación de colores no es válida.");
+        }
+
+    }) 
+}) */
