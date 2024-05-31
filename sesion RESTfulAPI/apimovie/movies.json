@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "title": "Pulp Fiction",
+    "protagonista": "John Travolta, Uma Thurman",
+    "categoria": "Crimen, Drama",
+    "imagenUrl": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRrnalrpn4rQYn5MEW6zwpZZGCC8hBx3hDRlGbrTTWygp6zryw6U5wt9ZRR7CRRheDFe6iX1vcRDYfuwfhqn8n-kXEvcBpvyBOy1XbyeA",
+    "videoUrl": "https://www.youtube.com/watch?v=s7EdQ4FqbhY"
+  },
+  {
+    "id": 2,
+    "title": "Titanic",
+    "protagonista": "Leonardo DiCaprio, Kate Winslet",
+    "categoria": "Romance, Drama",
+    "imagenUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTO4uDn64PLOGg3ECiPApplZ_SI6n3ZTGYfQLxYpA1GeFPxYqaT",
+    "videoUrl": "uhttps://www.youtube.com/watch?v=1EMkCJWQIDY"
+  },
+  {
+    "id": 3,
+    "title": "Matrix",
+    "protagonista": "Keanu Reeves, Laurence Fishburne",
+    "categoria": "Ciencia Ficción, Acción",
+    "imagenUrl": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ84cW1UR88ppC3lhKjpmWuDluqOpqv2oMjWUgnj__KcB-5Yisw95uvVGEdWakF_KuJcqyW2Boobl7g3bTskonr0xgnGPv5YMUIgyKwqg",
+    "videoUrl": "https://www.youtube.com/watch?v=OM0tSTEQCQA"
+  },
+  {
+    "id": 5,
+    "title": "El Sexto Sentido",
+    "protagonista": "Bruce Willis, Haley Joel Osment",
+    "categoria": "Drama, Terror",
+    "imagenUrl": "https://pics.filmaffinity.com/El_sexto_sentido-351070748-large.jpg",
+    "videoUrl": "https://www.youtube.com/watch?v=zfOdk9JDzSw"
+  },
+  {
+    "id": 6,
+    "title": "El Club de la Lucha",
+    "protagonista": "Brad Pitt, Edward Norton",
+    "categoria": "Drama, Acción",
+    "imagenUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyMFMgkkT05JE4cNHQpdvn5Ysl8RaIDIgzDvxzkBC4_5Nn_o_ypvN3ZnQPAtmV_e6wRf8&usqp=CAU",
+    "videoUrl": "url_video_club_dhttps://www.youtube.com/watch?v=G5Qgd3PLffAe_la_lucha"
+  },
+  {
+    "id": 7,
+    "title": "El Rey León",
+    "protagonista": "Animación",
+    "categoria": "Animación, Aventura",
+    "imagenUrl": "https://es.web.img3.acsta.net/medias/nmedia/18/68/20/31/19785394.jpg?coixp=47&coiyp=41",
+    "videoUrl": "https://www.youtube.com/watch?v=sfXPGuZ68HM"
+  },
+  {
+    "id": 8,
+    "title": "Gladiador",
+    "protagonista": "Russell Crowe, Joaquin Phoenix",
+    "categoria": "Acción, Drama",
+    "imagenUrl": "https://es.web.img3.acsta.net/medias/nmedia/18/70/92/02/20149073.jpg",
+    "videoUrl": "https://www.youtube.com/watch?v=hQUaIc37LIU"
+  },
+  {
+    "id": 9,
+    "title": "La La Land",
+    "protagonista": "Ryan Gosling, Emma Stone",
+    "categoria": "Romance, Musical",
+    "imagenUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk2rkqWG4pATQe3UycJsgRNpNwdu3rv8uiCw&s",
+    "videoUrl": "https://www.youtube.com/watch?v=0pdqf4P9MB8"
+  }
+]
